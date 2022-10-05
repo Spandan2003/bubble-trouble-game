@@ -226,7 +226,7 @@ int main()
                 else if((c == 'w'||c == 'W')&&bullets.size()<=10)
                     bullets.push_back(shooter.shoot());
                 else if(c == 'q'||c == 'Q')
-                    break; //return 0;
+                    return 0;
             }
 
             time=time+STEP_TIME;    //increase the time in each loop
